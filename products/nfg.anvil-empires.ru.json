@@ -9,20 +9,20 @@
     "description": "Неофициальная русская локализация Anvil Empires для проверенной версии игры в Steam. Пакет содержит перевод интерфейса и игровых текстов, а также поддержку кириллицы."
   },
   "release": {
-    "version": "0.10.6",
-    "channel": "beta",
-    "publishedAt": "2026-07-21T15:12:15Z",
+    "version": "1.0.0",
+    "channel": "stable",
+    "publishedAt": "2026-08-01T23:38:41Z",
     "payload": {
-      "url": "https://github.com/nullith2/anvil-empires-russian/releases/download/v0.10.6/Anvil-Empires-Russian-v0.10.6-steam-build-24300218.zip",
-      "sizeBytes": 476170,
-      "sha256": "20fe7c0148d733379a4f5228af235fb6c96afbc1969ff754213039a72c5bff67"
+      "url": "https://github.com/nullith2/anvil-empires-russian/releases/download/v1.0.0/Anvil-Empires-Russian-v1.0.0-steam-build-24378492.zip",
+      "sizeBytes": 478013,
+      "sha256": "a316fbdc1520794940f8a0906bbd5c346098e014fcfca02544c49b84d03c2f73"
     }
   },
   "compatibility": {
     "platforms": [
       "windows-x64"
     ],
-    "gameVersion": "steam-build-24300218",
+    "gameVersion": "steam-build-24378492",
     "status": "compatible"
   },
   "installation": {
@@ -39,6 +39,6 @@
   "dependencies": [],
   "progress": {
     "translationPercent": null,
-    "label": "Бета"
+    "label": "Стабильная"
   }
 }
