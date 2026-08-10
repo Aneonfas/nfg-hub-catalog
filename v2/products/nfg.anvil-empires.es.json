@@ -30,9 +30,9 @@
       "El texto incluido en imágenes no se traduce",
       "Algunas rutas poco frecuentes todavía requieren comprobación visual"
     ],
-    "notesUrl": "https://github.com/Aneonfas/anvil-empires-spanish/releases/tag/v0.1.0",
+    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/es-v0.1.0",
     "payload": {
-      "url": "https://github.com/Aneonfas/anvil-empires-spanish/releases/download/v0.1.0/Anvil-Empires-Spanish-v0.1.0-steam-build-24619810.zip",
+      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/es-v0.1.0/Anvil-Empires-Spanish-v0.1.0-steam-build-24619810.zip",
       "sizeBytes": 290616,
       "sha256": "ed02d8f7d22fddd5d3250c4330af4148a4c2c4d49dc36e6d616d072bca7511af"
     }
