@@ -37,6 +37,7 @@ dotnet restore .\Nfg.Store.slnx
 
 & .\scripts\catalog-snapshot.ps1 `
     -Sync `
+    -Feed V2 `
     -AuthoritativeRoot ..\nfg-hub-catalog
 ```
 
@@ -45,6 +46,7 @@ Confirm that the Hub snapshot exactly matches the committed catalog:
 ```powershell
 & .\scripts\catalog-snapshot.ps1 `
     -Check `
+    -Feed V2 `
     -AuthoritativeRoot ..\nfg-hub-catalog
 ```
 
