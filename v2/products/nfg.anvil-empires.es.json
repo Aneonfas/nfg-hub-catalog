@@ -11,36 +11,60 @@
     "summary": "Traducción al español de la interfaz, objetos y sistemas del juego.",
     "description": "Traducción no oficial al español de Anvil Empires Pre-Alpha para Windows y Steam. Incluye el catálogo cooked, textos native y cadenas adicionales del motor.",
     "features": [
-      "2 994 entradas de localización",
+      "2 991 entradas de localización",
       "Interfaz, objetos, estructuras, producción, misiones y mensajes del sistema",
       "Compatible con las fuentes latinas incluidas en el juego"
     ]
   },
   "release": {
-    "version": "0.1.0",
-    "channel": "beta",
-    "gameVersion": "steam-build-24619810",
+    "version": "1.0.0",
+    "channel": "stable",
+    "gameVersion": "steam-build-24805551",
     "highlights": [
-      "Primer candidato beta completo para Steam build 24619810",
-      "2 572 entradas cooked, 413 native y 9 supplemental",
-      "PAK y paquete NFG verificados localmente"
+      "Catálogo actualizado para Steam build 24805551",
+      "2 991 entradas: 2 565 cooked, 420 native y 6 supplemental",
+      "Traducido el aviso de la próxima prueba; la fecha sigue siendo dinámica",
+      "Comprobación dentro del juego confirmada por el usuario"
     ],
     "knownIssues": [
       "Los mensajes del servidor pueden permanecer en inglés",
       "El texto incluido en imágenes no se traduce",
-      "Algunas rutas poco frecuentes todavía requieren comprobación visual"
+      "El formato de fecha del aviso de la próxima prueba permanece en inglés",
+      "La comprobación en el juego fue selectiva; algunas pantallas poco frecuentes requieren revisión"
     ],
-    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/es-v0.1.0",
+    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/es-v1.0.0",
     "payload": {
-      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/es-v0.1.0/Anvil-Empires-Spanish-v0.1.0-steam-build-24619810.zip",
-      "sizeBytes": 290616,
-      "sha256": "ed02d8f7d22fddd5d3250c4330af4148a4c2c4d49dc36e6d616d072bca7511af"
+      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/es-v1.0.0/Anvil-Empires-Spanish-v1.0.0-steam-build-24805551.zip",
+      "sizeBytes": 297471,
+      "sha256": "8bb9608010e00b09f92d3a51c4a861e3eac21f1b119f6ea4e055b1ba27ba7b17"
     }
   },
-  "releases": [],
+  "releases": [
+    {
+      "version": "0.1.0",
+      "channel": "beta",
+      "gameVersion": "steam-build-24619810",
+      "highlights": [
+        "Primer candidato beta completo para Steam build 24619810",
+        "2 572 entradas cooked, 413 native y 9 supplemental",
+        "PAK y paquete NFG verificados localmente"
+      ],
+      "knownIssues": [
+        "Los mensajes del servidor pueden permanecer en inglés",
+        "El texto incluido en imágenes no se traduce",
+        "Algunas rutas poco frecuentes todavía requieren comprobación visual"
+      ],
+      "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/es-v0.1.0",
+      "payload": {
+        "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/es-v0.1.0/Anvil-Empires-Spanish-v0.1.0-steam-build-24619810.zip",
+        "sizeBytes": 290616,
+        "sha256": "ed02d8f7d22fddd5d3250c4330af4148a4c2c4d49dc36e6d616d072bca7511af"
+      }
+    }
+  ],
   "compatibility": {
     "platforms": ["windows-x64"],
-    "gameVersion": "steam-build-24619810",
+    "gameVersion": "steam-build-24805551",
     "status": "compatible"
   },
   "installation": {
@@ -57,6 +81,6 @@
   "dependencies": [],
   "progress": {
     "translationPercent": 100,
-    "label": "Beta 0.1.0"
+    "label": "Estable"
   }
 }
