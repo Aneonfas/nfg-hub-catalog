@@ -8,21 +8,21 @@
     "summary": "Русский перевод интерфейса, предметов и игровых систем.",
     "description": "Неофициальный русский перевод Anvil Empires Pre-Alpha для Windows и Steam. Локализация охватывает основные игровые тексты и адаптирует шрифты для корректного отображения кириллицы.",
     "features": [
-      "2 984 записи локализации",
+      "3 227 записей локализации",
       "Интерфейс, предметы, сооружения, производство, задания и системные сообщения",
       "Кириллица в шрифтах IM Fell и Bluu Next"
     ]
   },
   "release": {
-    "version": "1.0.2",
+    "version": "1.1.0",
     "channel": "stable",
-    "gameVersion": "steam-build-24805551",
-    "publishedAt": "2026-08-27T14:51:58Z",
+    "gameVersion": "steam-build-25584311",
+    "publishedAt": "2026-09-28T18:12:16Z",
     "highlights": [
-      "Добавлена поддержка Steam build 24805551",
-      "Актуализированы 2 984 записи локализации: 2 565 cooked-строк и 419 native-строк",
-      "Добавлена кириллица для шрифтов IM Fell и Bluu Next",
-      "Обновлены уведомления аватара и подкреплений; сокращён статус содержания"
+      "Обновлён перевод для актуальной версии игры",
+      "3 227 записей: интерфейс, предметы, карта и системные сообщения",
+      "Переведены новые названия одежды и обновлён экран выбора фракции",
+      "Уточнены предупреждения о строительстве и ограничениях оружия"
     ],
     "knownIssues": [
       "Серверные сообщения могут оставаться на английском",
@@ -31,14 +31,39 @@
       "Один из двух заголовков аренды хранилища может оставаться на английском из-за конфликта строк в клиенте",
       "Проверка в игре выборочная: редкие окна, поле «Название зоны» и подписи карты требуют дополнительной проверки"
     ],
-    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/ru-v1.0.2",
+    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/ru-v1.1.0",
     "payload": {
-      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/ru-v1.0.2/Anvil-Empires-Russian-v1.0.2-steam-build-24805551.zip",
-      "sizeBytes": 645069,
-      "sha256": "d53adfe281774040569f57205abf873dca33a3398322ec886d0863679379aedd"
+      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/ru-v1.1.0/Anvil-Empires-Russian-v1.1.0-steam-build-25584311.zip",
+      "sizeBytes": 685212,
+      "sha256": "25d748a35b82f351554256bc883e5d734928a9d637b0e06ba5fd80be602ff9e5"
     }
   },
   "releases": [
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "gameVersion": "steam-build-24805551",
+      "publishedAt": "2026-08-27T14:51:58Z",
+      "highlights": [
+        "Добавлена поддержка Steam build 24805551",
+        "Актуализированы 2 984 записи локализации: 2 565 cooked-строк и 419 native-строк",
+        "Добавлена кириллица для шрифтов IM Fell и Bluu Next",
+        "Обновлены уведомления аватара и подкреплений; сокращён статус содержания"
+      ],
+      "knownIssues": [
+        "Серверные сообщения могут оставаться на английском",
+        "Текст внутри изображений не переводится",
+        "Некоторые raw-строки голосового чата и редкие игровые ветви могут оставаться английскими",
+        "Один из двух заголовков аренды хранилища может оставаться на английском из-за конфликта строк в клиенте",
+        "Проверка в игре выборочная: редкие окна, поле «Название зоны» и подписи карты требуют дополнительной проверки"
+      ],
+      "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/ru-v1.0.2",
+      "payload": {
+        "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/ru-v1.0.2/Anvil-Empires-Russian-v1.0.2-steam-build-24805551.zip",
+        "sizeBytes": 645069,
+        "sha256": "d53adfe281774040569f57205abf873dca33a3398322ec886d0863679379aedd"
+      }
+    },
     {
       "version": "1.0.1",
       "channel": "stable",
@@ -91,7 +116,7 @@
     "platforms": [
       "windows-x64"
     ],
-    "gameVersion": "steam-build-24805551",
+    "gameVersion": "steam-build-25584311",
     "status": "compatible"
   },
   "installation": {
