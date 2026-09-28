@@ -20,11 +20,10 @@ legacy schema-v1 endpoint used by NFG Hub 0.1.1. Root product manifests remain
 on `schemaVersion: 1` and continue to receive normal product and release
 updates; schema v1 does not mean that their release metadata is frozen.
 
-The `v2/` directory is an unpublished rollout candidate for a newer Hub. It
-contains Russian and Spanish language variants that share one installation
-slot, plus the existing Forge Helper product. The root endpoint remains the
-only public endpoint today; do not merge or publish `v2/` until a versioned Hub
-release is ready to consume it.
+The `v2/catalog.json` endpoint is used by NFG Hub 0.3.0. It contains Russian,
+Spanish and Turkish language variants sharing one installation slot, plus the
+existing Forge Helper product. The legacy root endpoint remains available for
+older clients.
 
 ## Updating the bundled Hub snapshot
 
