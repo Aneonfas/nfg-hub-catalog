@@ -21,7 +21,7 @@ on `schemaVersion: 1` and continue to receive normal product and release
 updates; schema v1 does not mean that their release metadata is frozen.
 
 The `v2/catalog.json` endpoint is used by NFG Hub 0.3.0. It contains Russian,
-Spanish and Turkish language variants sharing one installation slot, plus the
+Spanish, Turkish and German language variants sharing one installation slot, plus the
 existing Forge Helper product. The legacy root endpoint remains available for
 older clients.
 
