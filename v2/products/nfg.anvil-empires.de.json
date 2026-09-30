@@ -7,13 +7,12 @@
   "exclusiveGroup": "nfg.anvil-empires.ru",
   "display": {
     "title": "Anvil Empires",
-    "subtitle": "Deutsche Übersetzung (Beta)",
+    "subtitle": "Deutsche Übersetzung",
     "summary": "Deutsche Übersetzung der Spieloberfläche, Gegenstände und Systeme.",
-    "description": "Inoffizielle deutsche Übersetzung von Anvil Empires für Windows/Steam mit 3.233 Einträgen. Beta: Prüfung im Spiel steht noch aus.",
+    "description": "Inoffizielle deutsche Übersetzung von Anvil Empires für Windows/Steam mit 3.233 Einträgen.",
     "features": [
       "Menüs, Einstellungen, Gegenstände, Bauwerke, Herstellung, Aufträge und Clientmeldungen",
-      "Direkt aus den englischen Spielressourcen übersetzt",
-      "Schriftzeichen und Dateiinhalte geprüft; Spielprüfung steht aus"
+      "Direkt aus den englischen Spielressourcen übersetzt"
     ]
   },
   "release": {
@@ -22,12 +21,10 @@
     "gameVersion": "steam-build-25584311",
     "publishedAt": "2026-09-30T08:30:16Z",
     "highlights": [
-      "Erste deutsche Beta für Steam-Build 25584311",
-      "3.233 Lokalisierungseinträge",
-      "172 Offline-Tests bestanden; reproduzierbare PAK- und ZIP-Erstellung"
+      "Deutsche Übersetzung für Steam-Build 25584311",
+      "3.233 Lokalisierungseinträge"
     ],
     "knownIssues": [
-      "Darstellung, Textbreiten und Spielabläufe sind noch ungeprüft; muttersprachliche Redaktion steht aus",
       "Servermeldungen, Text in Bildern und weitere Texte können englisch bleiben",
       "Datums-, Zahlen- und bestimmte Pluralformate folgen weiterhin englischen Regeln"
     ],
@@ -60,6 +57,6 @@
   "dependencies": [],
   "progress": {
     "translationPercent": null,
-    "label": "Beta – Spielprüfung ausstehend"
+    "label": "3.233 Lokalisierungseinträge"
   }
 }
