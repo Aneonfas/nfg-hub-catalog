@@ -11,21 +11,21 @@
     "summary": "Русский перевод интерфейса, предметов и игровых систем.",
     "description": "Неофициальный русский перевод Anvil Empires Pre-Alpha для Windows и Steam. Локализация охватывает основные игровые тексты и адаптирует шрифты для корректного отображения кириллицы.",
     "features": [
-      "3 227 записей локализации",
+      "3 238 записей локализации",
       "Интерфейс, предметы, сооружения, производство, задания и системные сообщения",
       "Кириллица в шрифтах IM Fell и Bluu Next"
     ]
   },
   "release": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "channel": "stable",
-    "gameVersion": "steam-build-25584311",
-    "publishedAt": "2026-09-28T18:12:16Z",
+    "gameVersion": "steam-build-25835022",
+    "publishedAt": "2026-10-10T12:45:55Z",
     "highlights": [
-      "Обновлён перевод для актуальной версии игры",
-      "3 227 записей: интерфейс, предметы, карта и системные сообщения",
-      "Переведены новые названия одежды и обновлён экран выбора фракции",
-      "Уточнены предупреждения о строительстве и ограничениях оружия"
+      "Перевод обновлён для Steam build 25835022",
+      "3 238 записей: 2 385 из ресурсов игры и 853 из клиента",
+      "Новые оборонные сооружения, задания и игровые уведомления",
+      "Работа в игре подтверждена пользователем; 173 автоматические проверки пройдены"
     ],
     "knownIssues": [
       "Серверные сообщения могут оставаться на английском",
@@ -34,14 +34,39 @@
       "Один из двух заголовков аренды хранилища может оставаться на английском из-за конфликта строк в клиенте",
       "Проверка в игре выборочная: редкие окна, поле «Название зоны» и подписи карты требуют дополнительной проверки"
     ],
-    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/ru-v1.1.0",
+    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/ru-v1.2.0",
     "payload": {
-      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/ru-v1.1.0/Anvil-Empires-Russian-v1.1.0-steam-build-25584311.zip",
-      "sizeBytes": 685212,
-      "sha256": "25d748a35b82f351554256bc883e5d734928a9d637b0e06ba5fd80be602ff9e5"
+      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/ru-v1.2.0/Anvil-Empires-Russian-v1.2.0-steam-build-25835022.zip",
+      "sizeBytes": 686895,
+      "sha256": "f95442e396a2730719b1db2c3c0e28cb202519f1edbb13026bbc8d2377ef5a56"
     }
   },
   "releases": [
+    {
+      "version": "1.1.0",
+      "channel": "stable",
+      "gameVersion": "steam-build-25584311",
+      "publishedAt": "2026-09-28T18:12:16Z",
+      "highlights": [
+        "Обновлён перевод для актуальной версии игры",
+        "3 227 записей: интерфейс, предметы, карта и системные сообщения",
+        "Переведены новые названия одежды и обновлён экран выбора фракции",
+        "Уточнены предупреждения о строительстве и ограничениях оружия"
+      ],
+      "knownIssues": [
+        "Серверные сообщения могут оставаться на английском",
+        "Текст внутри изображений не переводится",
+        "Некоторые raw-строки голосового чата и редкие игровые ветви могут оставаться английскими",
+        "Один из двух заголовков аренды хранилища может оставаться на английском из-за конфликта строк в клиенте",
+        "Проверка в игре выборочная: редкие окна, поле «Название зоны» и подписи карты требуют дополнительной проверки"
+      ],
+      "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/ru-v1.1.0",
+      "payload": {
+        "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/ru-v1.1.0/Anvil-Empires-Russian-v1.1.0-steam-build-25584311.zip",
+        "sizeBytes": 685212,
+        "sha256": "25d748a35b82f351554256bc883e5d734928a9d637b0e06ba5fd80be602ff9e5"
+      }
+    },
     {
       "version": "1.0.2",
       "channel": "stable",
@@ -113,7 +138,7 @@
     "platforms": [
       "windows-x64"
     ],
-    "gameVersion": "steam-build-25584311",
+    "gameVersion": "steam-build-25835022",
     "status": "compatible"
   },
   "installation": {
