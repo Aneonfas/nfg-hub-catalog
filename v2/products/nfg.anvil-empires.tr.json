@@ -9,7 +9,7 @@
     "title": "Anvil Empires",
     "subtitle": "Türkçe yerelleştirme",
     "summary": "Oyun arayüzü, eşyalar ve sistemler için Türkçe çeviri.",
-    "description": "Windows ve Steam için resmî olmayan Anvil Empires Türkçe çevirisi. 3.233 yerelleştirme girdisi ve Türkçe karakter desteği içerir.",
+    "description": "Windows ve Steam için resmî olmayan Anvil Empires Türkçe çevirisi. 3.244 yerelleştirme girdisi ve Türkçe karakter desteği içerir.",
     "features": [
       "Arayüz, eşyalar, yapılar, üretim, görevler ve sistem mesajları",
       "Türkçe karakterleri destekleyen yazı tipleri",
@@ -17,15 +17,15 @@
     ]
   },
   "release": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "channel": "stable",
-    "gameVersion": "steam-build-25584311",
-    "publishedAt": "2026-09-28T20:32:53Z",
+    "gameVersion": "steam-build-25835022",
+    "publishedAt": "2026-10-10T12:48:35Z",
     "highlights": [
-      "Steam build 25584311 için ilk Türkçe sürüm",
-      "3.233 yerelleştirme girdisi",
-      "Kamera yakınlaştırma ayarındaki metin taşması düzeltildi",
-      "169 otomatik test geçti; seçili oyun ekranları kullanıcı tarafından onaylandı"
+      "Steam build 25835022 için güncellendi",
+      "3.244 kayıt: 2.385 oyun kaynağı, 853 istemci ve 6 motor kaydı",
+      "Yeni savunma, görev ve bildirim metinleri",
+      "Kullanıcı oyunda çalıştığını doğruladı; 173 otomatik test geçti"
     ],
     "knownIssues": [
       "Tüm ekranlar ve oyun akışları test edilmedi; ana dili Türkçe olan bir editörün incelemesi yapılmadı",
@@ -33,19 +33,44 @@
       "Sonraki test duyurusunun tarih biçimi İngilizce kalabilir",
       "Yazı tipi değişiklikleri kalın ve italik görünümü etkileyebilir"
     ],
-    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/tr-v1.0.0",
+    "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/tr-v1.1.0",
     "payload": {
-      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/tr-v1.0.0/Anvil-Empires-Turkish-v1.0.0-steam-build-25584311.zip",
-      "sizeBytes": 982884,
-      "sha256": "8d4a9ba2b4df899cbdbf16d3a351b2ad296acaa4bb6faa9698b2b5c48cd4bd83"
+      "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/tr-v1.1.0/Anvil-Empires-Turkish-v1.1.0-steam-build-25835022.zip",
+      "sizeBytes": 984396,
+      "sha256": "a8319b78b8da1eafd12d481f910c6257b28922124625917a904847c3537d5a0a"
     }
   },
-  "releases": [],
+  "releases": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "gameVersion": "steam-build-25584311",
+      "publishedAt": "2026-09-28T20:32:53Z",
+      "highlights": [
+        "Steam build 25584311 için ilk Türkçe sürüm",
+        "3.233 yerelleştirme girdisi",
+        "Kamera yakınlaştırma ayarındaki metin taşması düzeltildi",
+        "169 otomatik test geçti; seçili oyun ekranları kullanıcı tarafından onaylandı"
+      ],
+      "knownIssues": [
+        "Tüm ekranlar ve oyun akışları test edilmedi; ana dili Türkçe olan bir editörün incelemesi yapılmadı",
+        "Sunucu mesajları ve görsellerdeki yazılar İngilizce kalabilir",
+        "Sonraki test duyurusunun tarih biçimi İngilizce kalabilir",
+        "Yazı tipi değişiklikleri kalın ve italik görünümü etkileyebilir"
+      ],
+      "notesUrl": "https://github.com/Aneonfas/anvil-empires-localizations/releases/tag/tr-v1.0.0",
+      "payload": {
+        "url": "https://github.com/Aneonfas/anvil-empires-localizations/releases/download/tr-v1.0.0/Anvil-Empires-Turkish-v1.0.0-steam-build-25584311.zip",
+        "sizeBytes": 982884,
+        "sha256": "8d4a9ba2b4df899cbdbf16d3a351b2ad296acaa4bb6faa9698b2b5c48cd4bd83"
+      }
+    }
+  ],
   "compatibility": {
     "platforms": [
       "windows-x64"
     ],
-    "gameVersion": "steam-build-25584311",
+    "gameVersion": "steam-build-25835022",
     "status": "compatible"
   },
   "installation": {
@@ -62,6 +87,6 @@
   "dependencies": [],
   "progress": {
     "translationPercent": null,
-    "label": "Yayımlandı"
+    "label": "Kararlı"
   }
 }
